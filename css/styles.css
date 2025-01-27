@@ -343,6 +343,15 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+
+.social-link:hover .footer-social-link:hover {
+  fill: #31d0aa;
+}
+
 .social-icon .footer-social-icon {
   fill: #f4f4fd;
 }
@@ -503,5 +512,13 @@ a {
 }
 
 .footer-container {
+  margin-right: 120px;
+}
+
+.container {
+  margin-right: 120px;
+}
+
+.footer-promo {
   margin-right: 120px;
 }
