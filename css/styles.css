@@ -150,15 +150,15 @@ a {
 }
 
 .hero-title {
-  margin: 0 0 48px;
-  max-width: 496px;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  color: #FFFFFF;
   text-align: center;
-  color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
